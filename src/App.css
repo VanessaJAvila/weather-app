@@ -1,5 +1,35 @@
 .container {
     max-width: 1080px;
+    height: 100%;
     margin: 20px auto;
+    padding-bottom: 0;
+    position: relative;
 }
+
+.title {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: #212121;
+}
+
+.creator {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.creator a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.creator a:hover {
+    text-decoration: underline;
+    color: #c5ebd6;
+}
+
 
